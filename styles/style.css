@@ -12,6 +12,7 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+/* HEADER SECTION */
 header {
     background-color: #1f2937;
     padding: 0 90px;
@@ -36,6 +37,7 @@ a {
     color: #e5e7eb;
     font-size: 18px;
     text-decoration: none;
+    padding: 7px 0;
 }
 .bottom-header {
     display: flex;
@@ -65,8 +67,38 @@ h1.title {
     border-radius: 5px;
 }
 .image-placeholder {
-    width: 290px;
-    height: 150px;
-    background-color: grey;
     flex-shrink: 0;
+    width: 335px;
+    height: 170px;
+    background-image: url('/assets/web-design-g19e4f336e_640.jpg');
+    background-size: cover;
+    box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* INFORMATION SECTION */
+#infos h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+}
+.illustrations {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.illustrations .item-image {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+}
+.illustrations .item-description {
+    text-align: center;
+    width: 150px;
 }
