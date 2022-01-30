@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root {
+    --dark-background-color: #1f2937;
+    --main-text-size: 48px;
+    --main-text-weight: bold;
+    --main-text-color: #f9faf8;
+}
 html {
     box-sizing: border-box;
     scroll-behavior: smooth;
@@ -9,4 +16,17 @@ html {
 }
 body {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    background-color: var(--dark-background-color);
+}
+.logo {
+    font-size: 24px;
+    color: var(--main-text-color);
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
