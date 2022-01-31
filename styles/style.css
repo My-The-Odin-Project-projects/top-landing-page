@@ -75,7 +75,7 @@ h1.title {
     flex-shrink: 0;
     width: 335px;
     height: 170px;
-    background-image: url('../assets/web-design-g19e4f336e_640.jpg');
+    background-image: url('/assets/web-design-g19e4f336e_640.jpg');
     background-size: cover;
     box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.5);
 }
