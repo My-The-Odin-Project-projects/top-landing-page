@@ -168,3 +168,14 @@ blockquote {
 #sign-up button {
     border: 1px solid #f9faf8;
 }
+
+/* FOOTER SECTION */
+footer {
+    text-align: center;
+    background-color: #1f2937;
+    padding: 35px 0;
+}
+footer p {
+    margin: 0;
+    color: #f9faf8;
+}
